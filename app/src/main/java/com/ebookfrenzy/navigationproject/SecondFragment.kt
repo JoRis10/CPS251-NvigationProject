@@ -48,6 +48,10 @@ class SecondFragment : Fragment() {
         super.onStart()
         arguments?.let {
             val args = SecondFragmentArgs.fromBundle(it)
+<<<<<<< HEAD
+=======
+            binding.argText.text = args.message
+>>>>>>> 7127c2afb68da489c1c99337d6956b4ada8899bb
             if(args.displayImage == 1){
                 binding.argImageView.setImageDrawable(resources.getDrawable(R.drawable.android_image_1))
             }
