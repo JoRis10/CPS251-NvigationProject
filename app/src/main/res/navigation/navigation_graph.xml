@@ -20,10 +20,6 @@
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <argument
-            android:name="message"
-            app:argType="string"
-            android:defaultValue="No Message" />
-        <argument
             android:name="displayImage"
             app:argType="integer"
             android:defaultValue="0" />
